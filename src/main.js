@@ -1,5 +1,5 @@
-import './style.css';
+import { Application } from './application.js'
 
-import { Application } from "./application"
-
-new Application()
+window.addEventListener('DOMContentLoaded', () => {
+  new Application()
+})
